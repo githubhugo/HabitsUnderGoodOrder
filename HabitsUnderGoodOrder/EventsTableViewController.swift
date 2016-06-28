@@ -21,7 +21,7 @@ class EventsTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         let realm = try! Realm()
         
-        completedHabitCount.text = "Good habit completed for \(realm.objects(Event).count) days"
+        completedHabitCount.text = "Good habit completed for \(realm.objects(Event).count) day/s"
 
     }
 
